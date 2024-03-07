@@ -3,19 +3,27 @@ langchain integration complete application making query save query and delete qu
 
 # local setup
 ## ENV
+```
 python -m venv env 
-
-activate env
+```
+# Activate Env
+```
 source env/bin/activate
+```
 
 ## Requirements:
+```
 pip install requirements.txt
+```
 
 
 # ENV variables
+```
 export GOOGLE_API_KEY
-add MODEL NAME 
+```
 
 
-## Command
+## Run Server Command
+```
 python -m uvicorn app:app --reload
+```
